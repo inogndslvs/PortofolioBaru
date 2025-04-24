@@ -3,13 +3,14 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "React",
-    "Vue",
-    "TypeScript",
+    "Nextjs",
+    "Javascript",
     "TailwindCSS",
-    "Svelte",
+    "figma",
+    "github",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "laravel"];
 
   return (
     <section
@@ -25,8 +26,14 @@ export const About = () => {
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+              I am a recent graduate with a Bachelor’s degree in Informatics
+              Engineering from Ngudi Waluyo University, passionate about web
+              development and UI/UX design. During my academic journey, I joined
+              the MSIB Batch 5 program at Dicoding and MSIB Batch 6 at Infinite
+              Learning, where I strengthened my skills in frontend and backend
+              development, as well as user experience design. I'm eager to keep
+              learning and contribute to building meaningful digital solutions.
+              Here are the skills I’ve acquired and continue to develop:
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -69,12 +76,15 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> Bachelor of Informatics Engineering –</strong>
+                  Universitas Ngudi Waluyo (2021–2025)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  MSIB Cycle 5 di Dicoding (belajar backend, frontend, UI/UX){" "}
+                </li>
+                <li>
+                  MSIB Cycle 6 di Infinite Learning (belajar web development &
+                  UI/UX){" "}
                 </li>
               </ul>
             </div>
@@ -84,22 +94,14 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Mentor - Dicoding (January 2025 - April 2025){" "}
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                    As a mentor at Dicoding, I guided students through both
+                    front-end and back-end development tracks. I provided
+                    valuable feedback, answered technical questions, and
+                    facilitated the learning process to help students excel in
+                    mastering web development technologies.
                   </p>
                 </div>
               </div>

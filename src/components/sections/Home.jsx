@@ -9,13 +9,13 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">
-            Hi, I'm Pedro Tech
+            Hi, I'm Inosensius G. Atok
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I’m a full-stack developer who loves crafting clean, scalable web
-            applications. My goal is to build solutions that offer both
-            exceptional performance and a delightful user experience.
+            I’m a front-end developer who enjoys building clean, responsive, and
+            scalable web applications. My goal is to create solutions that
+            deliver high performance and a seamless user experience.
           </p>
           <div className="flex justify-center space-x-4">
             <a
